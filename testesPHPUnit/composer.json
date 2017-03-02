@@ -1,0 +1,28 @@
+{
+  "name": "kelver/coursecomposer",
+  "description": "course school of net composer",
+  "require": {
+    "silex/silex": "1.3.*@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.1.7"
+  },
+  "authors": [
+    {
+      "name": "Kelver Machado",
+      "email": "kelver_kmv@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload":{
+    "psr-4": {
+      "Kelver\\Curso\\": [
+        "src/Kelver/Curso/",
+        "tests/Kelver/Curso/"
+      ]
+    }
+  },
+  "config":{
+    "bin-dir":"bin/"
+  }
+}

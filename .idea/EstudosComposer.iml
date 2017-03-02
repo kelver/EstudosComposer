@@ -18,9 +18,11 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/course/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/testesPHPUnity/composer.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/course/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/testesPHPUnity/composer.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
